@@ -1,0 +1,50 @@
+.dropdown{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important; 
+}
+
+span{
+    display: flex;
+    font-size: 130%;
+    color: #3670a9;
+    
+}
+
+.form-check-input[type=checkbox]{
+    border-color: #33cccc;
+}
+
+.form-check-input:checked{
+    background-color: #33cccc !important;
+    border-color: #33cccc !important;
+}
+
+.opitionLinesDropdown{
+    color: #707070;
+    font-weight: normal;
+}
+
+.exibitionTable{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.titleDropdown{
+    color: #64647d;
+}
+
+hr{
+    width: 85%;
+    margin: auto;
+}

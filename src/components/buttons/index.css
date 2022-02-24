@@ -1,0 +1,17 @@
+.functionsTable{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 70%;
+}
+
+.editButton{
+    background: none !important;
+    border: none;
+    color: #3670a9;
+}
+.deleteButton{
+    background: none !important;
+    border: none;
+    color: red;
+}
